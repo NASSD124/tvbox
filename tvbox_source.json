@@ -1,0 +1,348 @@
+{
+  "spider": "https://cdn.jsdelivr.net/gh/liu673cn/box@main/jar/0.jar",
+  "wallpaper": "https://picsum.photos/1920/1080",
+  "sites": [
+    {
+      "key": "csp_XBPQ",
+      "name": "北美N影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/my-program/zhiboyuan/-/raw/main/XBPQ.json"
+    },
+    {
+      "key": "csp_XYQBiu",
+      "name": "如意影视",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/my-program/zhiboyuan/-/raw/main/XYQBiu.json"
+    },
+    {
+      "key": "csp_XYQHiker",
+      "name": "追剧影视",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/my-program/zhiboyuan/-/raw/main/XYQHiker.json"
+    },
+    {
+      "key": "csp_bili",
+      "name": "哔哩哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/my-program/zhiboyuan/-/raw/main/bili.json"
+    },
+    {
+      "key": "csp_Douban",
+      "name": "豆瓣",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://jihulab.com/my-program/zhiboyuan/-/raw/main/douban.json"
+    },
+    {
+      "key": "csp_Youtube",
+      "name": "YouTube",
+      "type": 3,
+      "api": "csp_Youtube",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "timeout": 120,
+      "ext": "https://jihulab.com/my-program/zhiboyuan/-/raw/main/youtube.json"
+    },
+    {
+      "key": "csp_Alist",
+      "name": "AList网盘",
+      "type": 3,
+      "api": "csp_Alist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/my-program/zhiboyuan/-/raw/main/alist.json"
+    },
+    {
+      "key": "csp_Emby",
+      "name": "Emby",
+      "type": 3,
+      "api": "csp_Emby",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/my-program/zhiboyuan/-/raw/main/emby.json"
+    },
+    {
+      "key": "tvbox_南风",
+      "name": "南风接口",
+      "type": 1,
+      "api": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_饭太硬",
+      "name": "饭太硬",
+      "type": 1,
+      "api": "http://饭太硬.top/tv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_肥猫",
+      "name": "肥猫",
+      "type": 1,
+      "api": "http://肥猫.live",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_小雅",
+      "name": "小雅",
+      "type": 1,
+      "api": "https://alist.yyzq.cf/d/%20%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%9B%98/linux/tvbox/zhimingyuan/xiaoyaalist.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_影视仓V3",
+      "name": "影视仓V3",
+      "type": 1,
+      "api": "https://jihulab.com/z-blog/xh2/-/raw/main/t3.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_道长",
+      "name": "道长",
+      "type": 1,
+      "api": "https://pastebin.com/raw/5NHaxyGR",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_巧儿",
+      "name": "巧儿",
+      "type": 1,
+      "api": "https://pandown.pro/tvbox/tvbox.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_进恩哥",
+      "name": "进恩哥",
+      "type": 1,
+      "api": "https://jinenyy.vip/app/tvbox/tvbox.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_4K云盘",
+      "name": "4K云盘",
+      "type": 1,
+      "api": "https://9xi4o.tk/0725.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_神器",
+      "name": "神器",
+      "type": 1,
+      "api": "https://神器每日推送.tk/pz.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_采妮诗",
+      "name": "采妮诗",
+      "type": 1,
+      "api": "https://tvbox.cainisi.cf",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tvbox_星辰",
+      "name": "星辰",
+      "type": 1,
+      "api": "http://8.210.232.168/xc.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "lives": [
+    {
+      "group": "redirect",
+      "channels": [
+        {
+          "name": "redirect",
+          "urls": [
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9qaWh1bGFiLmNvbS9teS1wcm9ncmFtL3poaWJveXVhbi8tL3Jhdy9tYWluL2xpdmUudHh0"
+          ]
+        }
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "聚合",
+      "type": 3,
+      "ext": "https://jihulab.com/my-program/zhiboyuan/-/raw/main/parse.json"
+    },
+    {
+      "name": "Json解析",
+      "type": 2,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    },
+    {
+      "name": "B站解析",
+      "type": 2,
+      "url": "https://jx.bozrc.com:4433/player/?url="
+    },
+    {
+      "name": "MX解码",
+      "type": 2,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "1080P",
+      "type": 2,
+      "url": "https://jx.jxjj.top/?url="
+    },
+    {
+      "name": "ckplayer",
+      "type": 2,
+      "url": "https://jx.ckplayer.tv/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "mgtv",
+    "pptv",
+    "PPTV",
+    "bilibili",
+    "xigua",
+    "1905",
+    "騰訊",
+    "腾讯",
+    "優酷",
+    "优酷",
+    "愛奇藝",
+    "爱奇艺",
+    "芒果",
+    "番茄",
+    "乐视",
+    "西瓜",
+    "火山",
+    "抖音",
+    "頭條",
+    "头条"
+  ],
+  "categories": {
+    "电影": [
+      "csp_XBPQ",
+      "csp_XYQBiu",
+      "csp_XYQHiker",
+      "tvbox_南风",
+      "tvbox_饭太硬",
+      "tvbox_肥猫",
+      "tvbox_小雅",
+      "tvbox_影视仓V3",
+      "tvbox_道长",
+      "tvbox_巧儿",
+      "tvbox_进恩哥",
+      "tvbox_4K云盘",
+      "tvbox_神器",
+      "tvbox_采妮诗",
+      "tvbox_星辰"
+    ],
+    "电视剧": [
+      "csp_XBPQ",
+      "csp_XYQBiu",
+      "csp_XYQHiker",
+      "tvbox_南风",
+      "tvbox_饭太硬",
+      "tvbox_肥猫",
+      "tvbox_小雅",
+      "tvbox_影视仓V3",
+      "tvbox_道长",
+      "tvbox_巧儿",
+      "tvbox_进恩哥",
+      "tvbox_4K云盘",
+      "tvbox_神器",
+      "tvbox_采妮诗",
+      "tvbox_星辰"
+    ],
+    "综艺": [
+      "csp_XBPQ",
+      "csp_XYQBiu",
+      "csp_XYQHiker",
+      "tvbox_南风",
+      "tvbox_饭太硬",
+      "tvbox_肥猫",
+      "tvbox_小雅",
+      "tvbox_影视仓V3",
+      "tvbox_道长",
+      "tvbox_巧儿",
+      "tvbox_进恩哥",
+      "tvbox_4K云盘",
+      "tvbox_神器",
+      "tvbox_采妮诗",
+      "tvbox_星辰"
+    ],
+    "动漫": [
+      "csp_XBPQ",
+      "csp_XYQBiu",
+      "csp_XYQHiker",
+      "csp_bili",
+      "tvbox_南风",
+      "tvbox_饭太硬",
+      "tvbox_肥猫",
+      "tvbox_小雅",
+      "tvbox_影视仓V3",
+      "tvbox_道长",
+      "tvbox_巧儿",
+      "tvbox_进恩哥",
+      "tvbox_4K云盘",
+      "tvbox_神器",
+      "tvbox_采妮诗",
+      "tvbox_星辰"
+    ],
+    "短视频": [
+      "csp_bili",
+      "csp_Youtube"
+    ],
+    "网盘": [
+      "csp_Alist",
+      "csp_Emby"
+    ]
+  }
+}
