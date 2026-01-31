@@ -14,14 +14,6 @@
   ],
   "sites": [
     {
-      "key": "ffzy",
-      "name": "非凡资源 (API)",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
       "key": "天天",
       "name": "天天┃高峰期用不了就点我换源或者搜索",
       "type": 3,
