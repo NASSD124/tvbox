@@ -1,150 +1,85 @@
 {
-  "spider": "./jar.txt",
-  "wallpaper": "https://picsum.photos/1920/1080",
+  "spider": "http://cdn.qiaoji8.com/fix260108.jar;md5;1fbfab3e9f1fc664a90844c488c49b25",
+  "wallpaper": "https://bing.img.run/uhd.php",
+  "lives": [
+    {
+      "group": "redirect",
+      "channels": [
+        {
+          "name": "live",
+          "urls": ["proxy://do=live&type=txt&ext="]
+        }
+      ]
+    }
+  ],
   "sites": [
     {
       "key": "ffzy",
-      "name": "非凡资源",
+      "name": "非凡资源 (API)",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod"
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1
     },
     {
-      "key": "ltmb",
-      "name": "乐多资源",
-      "type": 1,
-      "api": "https://api.leduotv.com/wp-api/getvodlist"
+      "key": "天天",
+      "name": "天天┃高峰期用不了就点我换源或者搜索",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 2,
+      "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
     {
-      "key": "wmcj",
-      "name": "完美影视",
-      "type": 1,
-      "api": "https://www.wanmeij.com/api.php/provide/vod"
+      "key": "巧技三",
+      "name": "巧技三┃QD4K",
+      "type": 3,
+      "api": "csp_qiao2",
+      "playerType": 2,
+      "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312gl815890ig2l05g9"
     },
     {
-      "key": "qingk",
-      "name": "晴空影院",
-      "type": 1,
-      "api": "https://qkav.tv/api.php/provide/vod"
+      "key": "lanyingys",
+      "name": "橘子4K┃APP",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 2,
+      "ext": "7lj763gg402i794256239kj6h5128l9jllk7jj50i18630285h4j17hikk1k560954845ig0j75l92972l18gliilll11lg8l26h3h07ggg6j3k83gjj65g537l41h16gjl3i1g7g026752gig5k640ji4gl113024k6lk6j22h09llhj7jk35l2384j"
     },
     {
-      "key": "xfyun",
-      "name": "讯飞云",
-      "type": 1,
-      "api": "http://124.222.67.42:9999/api.php/provide/vod"
+      "key": "csp_CZSPP",
+      "name": "厂长┃直连",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "7lj763gg402i7942463j9j9jh346968hg5ll845ki38473"
     },
     {
-      "key": "tjqz",
-      "name": "天天全剧",
-      "type": 1,
-      "api": "https://www.tianjuqingzhi.com/api.php/provide/vod"
-    },
-    {
-      "key": "yongji",
-      "name": "勇捷影视",
-      "type": 1,
-      "api": "https://yongji8.com/api.php/provide/vod"
-    },
-    {
-      "key": "zhaojiao",
-      "name": "赵家影视",
-      "type": 1,
-      "api": "http://new.zhaojiadc.com/api.php/provide/vod"
-    },
-    {
-      "key": "yuexian",
-      "name": "月贤影视",
-      "type": 1,
-      "api": "https://www.yuexians.com/api.php/provide/vod"
-    },
-    {
-      "key": "duoduo",
-      "name": "多多影视",
-      "type": 1,
-      "api": "https://ddzy.deduona.cn/api.php/provide/vod"
-    },
-    {
-      "key": "yidi",
-      "name": "一度影视",
-      "type": 1,
-      "api": "https://api.yidi.tv/api.php/provide/vod"
-    },
-    {
-      "key": "kuyun",
-      "name": "酷云影院",
-      "type": 1,
-      "api": "https://www.kuyunzy.com/api.php/provide/vod"
-    },
-    {
-      "key": "xinshui",
-      "name": "心水影视",
-      "type": 1,
-      "api": "https://www.xinshui.org.cn/api.php/provide/vod"
-    },
-    {
-      "key": "haima",
-      "name": "海螺影视",
-      "type": 1,
-      "api": "https://haima.tv/api.php/provide/vod"
-    },
-    {
-      "key": "tianyou",
-      "name": "天佑影视",
-      "type": 1,
-      "api": "https://www.tianyouzx.com/api.php/provide/vod"
+      "key": "拾光",
+      "name": "拾光┃秒播APP",
+      "type": 3,
+      "api": "csp_Hmys",
+      "playerType": 1,
+      "ext": "https://dy.jmzp.net.cn"
     }
   ],
   "parses": [
     {
-      "name": "Json解析",
-      "type": 2,
-      "url": "https://jx.jsonplayer.com/player/?url="
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
     },
     {
-      "name": "B站解析",
+      "name": "Json轮询",
       "type": 2,
-      "url": "https://jx.bozrc.com:4433/player/?url="
+      "url": "Sequence"
     },
     {
-      "name": "MX解码",
-      "type": 2,
-      "url": "https://jx.xmflv.com/?url="
-    },
-    {
-      "name": "1080P",
-      "type": 2,
-      "url": "https://jx.jxjj.top/?url="
-    },
-    {
-      "name": "ckplayer",
-      "type": 2,
-      "url": "https://jx.ckplayer.tv/?url="
+      "name": "巧技",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/neibu.php?"
     }
-  ],
-  "flags": [
-    "youku",
-    "qq",
-    "iqiyi",
-    "qiyi",
-    "letv",
-    "sohu",
-    "tudou",
-    "mgtv",
-    "pptv",
-    "PPTV",
-    "bilibili",
-    "xigua",
-    "1905",
-    "腾讯",
-    "优酷",
-    "爱奇艺",
-    "芒果",
-    "西瓜",
-    "乐视"
-  ],
-  "categories": {
-    "电影": ["ffzy", "ltmb", "wmcj", "qingk", "xfyun", "tjqz", "yongji", "zhaojiao", "yuexian", "duoduo", "yidi", "kuyun", "xinshui", "haima", "tianyou"],
-    "电视剧": ["ffzy", "ltmb", "wmcj", "qingk", "xfyun", "tjqz", "yongji", "zhaojiao", "yuexian", "duoduo", "yidi", "kuyun", "xinshui", "haima", "tianyou"],
-    "综艺": ["ffzy", "ltmb", "wmcj", "qingk", "xfyun", "tjqz", "yongji", "zhaojiao", "yuexian", "duoduo", "yidi", "kuyun", "xinshui", "haima", "tianyou"],
-    "动漫": ["ffzy", "ltmb", "wmcj", "qingk", "xfyun", "tjqz", "yongji", "zhaojiao", "yuexian", "duoduo", "yidi", "kuyun", "xinshui", "haima", "tianyou"]
-  }
+  ]
 }
