@@ -46,21 +46,20 @@
       "ext": "7lj763gg402i794245238hjjg45j8295k5hji64882862l321l4215hkkg1l5g001i9k5ihkj6539l8j2208h380k5h21hk8lj2l6k56l1g8i3k93k8i3ihj7hh5595il0glj1h0g0737h2h8652680i96l51h766khhg27j35h0igl5j69239l5311h113i71j974g8k1"
     },
     {
-      "key": "Dygang",
-      "name": "电影港[边下边播]",
+      "key": "蝴蝶",
+      "name": "蝴蝶┃App",
       "type": 3,
-      "api": "csp_Dygang",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
+      "api": "csp_Qiji",
+      "playerType": 2,
+      "ext": "7lj763gg402i79425h2384j4g949j899hll9990i9kjl6l740h1342hjlg1848401g8610h9995i998j351gl38kklkj1hkhll757010k7hji6h377ih37k060g35161jhl3i5h0l2702g7299452l4297k5697g5390lk6935k2i9g48l8j2kh27l1g014k7j9677gg"
     },
     {
-      "key": "主角",
-      "name": "主角┃APP",
+      "key": "星河",
+      "name": "星河┃App",
       "type": 3,
-      "api": "csp_Xdai",
+      "api": "csp_Qiji",
       "playerType": 2,
-      "ext": "7lj763gg402i794246398hi3h9128893l4gji44ii5i7312k5l0k02k6l41k5509558245g38450hhj13634k58gjjgi0iiig761450hligki9j4738814gh66861j54j1g0i393g36l3k2hil10"
+      "ext": "7lj763gg0939795i007ki485k612jli3hil9990l96j86i79025j08k7l8055g1h1i834kg3i900i0j06k4hg190k2lj0gk6k567614jl0k399gl72j06hkl3ilj1l"
     },
     {
       "key": "csp_CZSPP",
