@@ -30,20 +30,37 @@
       "ext": "7lj763gg402i794256239kj6h5128l9jllk7jj50i18630285h4j17hikk1k560954845ig0j75l92972l18gliilll11lg8l26h3h07ggg6j3k83gjj65g537l41h16gjl3i1g7g026752gig5k640ji4gl113024k6lk6j22h09llhj7jk35l2384j"
     },
     {
-      "key": "kafeiys",
-      "name": "狂风┃APP",
+      "key": "剧评",
+      "name": "剧评┃App",
       "type": 3,
-      "api": "csp_Xdai",
-      "playerType": 2,
-      "ext": "7lj763gg402i7942422493i0g712948hk8k7i75h9882263201134ihjkj0l4l124gi40kk3ij04i4ji634gkhj6g2gl4gh6ki31260jh0k79jgh7kjj6gg53gl91k12ghkh91l2g4"
+      "api": "csp_Jpys",
+      "playerType": 1,
+      "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
     },
     {
-      "key": "柚子",
-      "name": "柚子┃APP",
+      "key": "趣看",
+      "name": "趣看┃无搜索",
+      "type": 3,
+      "api": "csp_Qiji",
+      "playerType": 2,
+      "ext": "7lj763gg402i794245238hjjg45j8295k5hji64882862l321l4215hkkg1l5g001i9k5ihkj6539l8j2208h380k5h21hk8lj2l6k56l1g8i3k93k8i3ihj7hh5595il0glj1h0g0737h2h8652680i96l51h766khhg27j35h0igl5j69239l5311h113i71j974g8k1"
+    },
+    {
+      "key": "Dygang",
+      "name": "电影港[边下边播]",
+      "type": 3,
+      "api": "csp_Dygang",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "主角",
+      "name": "主角┃APP",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
-      "ext": "7lj763gg402i7942553393i9g44g8j82k2g9jg54ih863325555955g5g1595i1741i70lk1i00hji87320gh6j1gkkg0jh4g8697h06ghh3jhl5339731hj7hh5595ilkkkjhh8k261236896432i458hkk4i756kh5k3773jl2j8gj958228h178060g6h72j974g8k1"
+      "ext": "7lj763gg402i794246398hi3h9128893l4gji44ii5i7312k5l0k02k6l41k5509558245g38450hhj13634k58gjjgi0iiig761450hligki9j4738814gh66861j54j1g0i393g36l3k2hil10"
     },
     {
       "key": "csp_CZSPP",
@@ -55,14 +72,6 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "7lj763gg402i7942463j9j9jh346968hg5ll845ki38473"
-    },
-    {
-      "key": "永夜",
-      "name": "永夜┃App",
-      "type": 3,
-      "api": "csp_Xdai",
-      "playerType": 2,
-      "ext": "7lj763gg0939790i413gjh9kk011jijiggll990k9li73l224k770ik0j10l502j2j9l798lhj778hh33g018h94k5j400kij3567j7gji97kkk4118421g03lll"
     }
   ],
   "parses": [
