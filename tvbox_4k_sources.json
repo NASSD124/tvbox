@@ -1,12 +1,141 @@
-{
-  "spider": "http://cdn.qiaoji8.com/fix260108.jar;md5;1fbfab3e9f1fc664a90844c488c49b25",
-  "sites": [
+"sites": [
     {
-      "key": "test",
-      "name": "测试源-厂长",
-      "type": 3,
-      "api": "csp_NewCz",
-      "ext": "https://www.czzyvideo.com/"
+        "key": "巧技三",
+        "name": "巧技三┃QD4K",
+        "type": 3,
+        "api": "csp_qiao2",
+        "playerType": 2,
+        "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312gl815890ig2l05g9"
+    },
+    {
+        "key": "厂长",
+        "name": "厂长",
+        "type": 3,
+        "api": "csp_NewCz",
+        "playerType": 2,
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1,
+        "ext": "https://www.czzyvideo.com/"
+    },
+    {
+        "key": "IK",
+        "name": "IK",
+        "type": 1,
+        "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
+        "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "灾难片", "犯罪片", "悬疑片", "惊悚片", "奇幻片", "冒险片", "武侠片", "其它片", "国产剧", "港台剧", "日韩剧", "欧美剧", "香港剧", "台湾剧", "美国剧", "韩国剧", "日本剧", "泰国剧", "港澳剧", "日剧", "韩剧", "泰剧", "海外剧", "马泰剧", "中漫", "日漫", "动漫", "纪录片", "动画片", "动漫片", "国产动漫", "港台动漫", "日本动漫", "海外动漫", "日韩动漫", "欧美动漫", "动漫电影", "国内综艺", "港台综艺", "大陆综艺", "日韩综艺", "欧美综艺", "海外综艺", "电影解说"],
+        "searchable": 1,
+        "quickSearch": 1
+    },
+    {
+        "key": "低端",
+        "name": "低端",
+        "type": 3,
+        "api": "csp_Ddrk",
+        "playerType": "2",
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1
+    },
+    {
+        "key": "糯米",
+        "name": "糯米",
+        "type": 3,
+        "api": "csp_Nmyswv",
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1
+    },
+    {
+        "key": "苹果",
+        "name": "苹果",
+        "type": 3,
+        "api": "csp_LiteApple",
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1
+    },
+    {
+        "key": "原创",
+        "name": "原创",
+        "type": 3,
+        "api": "csp_YCyz",
+        "timeout": 15,
+        "playerType": 1,
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1
+    },
+    {
+        "key": "奥特",
+        "name": "奥特",
+        "type": 3,
+        "api": "csp_Auete",
+        "timeout": 15,
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1,
+        "ext": "https://auete.pro/"
+    },
+    {
+        "key": "蝴蝶",
+        "name": "蝴蝶┃App",
+        "type": 3,
+        "api": "csp_Qiji",
+        "playerType": 2,
+        "ext": "7lj763gg402i79425h2384j4g949j899hll9990i9kjl6l740h1342hjlg1848401g8610h9995i998j351gl38kklkj1hkhll757010k7hji6h377ih37k060g35161jhl3i5h0l2702g7299452l4297k5697g5390lk6935k2i9g48l8j2kh27l1g014k7j9677gg"
+    },
+    {
+        "key": "星河",
+        "name": "星河┃App",
+        "type": 3,
+        "api": "csp_Qiji",
+        "playerType": 2,
+        "ext": "7lj763gg0939795i007ki485k612jli3hil9990l96j86i79025j08k7l8055g1h1i834kg3i900i0j06k4hg190k2lj0gk6k567614jl0k399gl72j06hkl3ilj1l"
+    },
+    {
+        "key": "优质",
+        "name": "优质┃App",
+        "type": 3,
+        "api": "csp_Qiji",
+        "playerType": 2,
+        "ext": "7lj763gg402i7942433293i0g9458881hig7j94k818g326i51491kljlk134k401g9g54gk8j5i9097751kh28kh9kj11kjl92k6046l0gkj8l630892glj67g61h48g3kjiigkg0263k6h955430429ill43307gk8k0602hh09lh0j6jh7h"
+    },
+    {
+        "key": "巴士动漫",
+        "name": "巴士动漫",
+        "type": 3,
+        "api": "csp_Dm84",
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1
+    },
+    {
+        "key": "异界动漫",
+        "name": "异界动漫",
+        "type": 3,
+        "api": "csp_Ysj",
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1
+    },
+    {
+        "key": "日本动漫",
+        "name": "日本动漫",
+        "type": 3,
+        "api": "csp_Anime1",
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1
+    },
+    {
+        "key": "新6V",
+        "name": "新6V磁力",
+        "type": 3,
+        "api": "csp_SixV",
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 0,
+        "ext": "https://www.xb6v.com/"
     }
-  ]
-}
+]
