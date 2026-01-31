@@ -14,14 +14,6 @@
   ],
   "sites": [
     {
-      "key": "天天",
-      "name": "天天┃高峰期用不了就点我换源或者搜索",
-      "type": 3,
-      "api": "csp_TTian",
-      "playerType": 2,
-      "ext": "7lj763gg0939791h1l3888jig44gi291li"
-    },
-    {
       "key": "巧技三",
       "name": "巧技三┃QD4K",
       "type": 3,
@@ -38,6 +30,22 @@
       "ext": "7lj763gg402i794256239kj6h5128l9jllk7jj50i18630285h4j17hikk1k560954845ig0j75l92972l18gliilll11lg8l26h3h07ggg6j3k83gjj65g537l41h16gjl3i1g7g026752gig5k640ji4gl113024k6lk6j22h09llhj7jk35l2384j"
     },
     {
+      "key": "kafeiys",
+      "name": "狂风┃APP",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 2,
+      "ext": "7lj763gg402i7942422493i0g712948hk8k7i75h9882263201134ihjkj0l4l124gi40kk3ij04i4ji634gkhj6g2gl4gh6ki31260jh0k79jgh7kjj6gg53gl91k12ghkh91l2g4"
+    },
+    {
+      "key": "柚子",
+      "name": "柚子┃APP",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 2,
+      "ext": "7lj763gg402i7942553393i9g44g8j82k2g9jg54ih863325555955g5g1595i1741i70lk1i00hji87320gh6j1gkkg0jh4g8697h06ghh3jhl5339731hj7hh5595ilkkkjhh8k261236896432i458hkk4i756kh5k3773jl2j8gj958228h178060g6h72j974g8k1"
+    },
+    {
       "key": "csp_CZSPP",
       "name": "厂长┃直连",
       "type": 3,
@@ -49,12 +57,12 @@
       "ext": "7lj763gg402i7942463j9j9jh346968hg5ll845ki38473"
     },
     {
-      "key": "拾光",
-      "name": "拾光┃秒播APP",
+      "key": "永夜",
+      "name": "永夜┃App",
       "type": 3,
-      "api": "csp_Hmys",
-      "playerType": 1,
-      "ext": "https://dy.jmzp.net.cn"
+      "api": "csp_Xdai",
+      "playerType": 2,
+      "ext": "7lj763gg0939790i413gjh9kk011jijiggll990k9li73l224k770ik0j10l502j2j9l798lhj778hh33g018h94k5j400kij3567j7gji97kkk4118421g03lll"
     }
   ],
   "parses": [
