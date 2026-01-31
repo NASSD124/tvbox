@@ -1,1 +1,1 @@
-{  "api": "{{host}}/api.php/provide/vod",  "playUrl": "",  "searchable": 1,  "quickSearch": 1,  "filterable": 1}
+{  "sites": [    {      "key": "暴风",      "name": "非凡资源",      "type": 1,      "api": "https://bfzyapi.com/api.php/provide/vod"    }  ]}
