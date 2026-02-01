@@ -1,0 +1,433 @@
+{
+  "sites": [
+    {
+      "key": "netflixgc",
+      "name": "奈飞工厂",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "homeUrl": "https://www.netflixgc.com/",
+        "cateManual": {
+          "电影": "1",
+          "连续剧": "2",
+          "纪录片": "3",
+          "漫剧": "4",
+          "综艺": "5",
+          "伦理": "6"
+        },
+        "homeVodNode": "//div[contains(@class,'module-item') and contains(@class,'video-item')]/div[@class='module-item-cover']",
+        "homeVodName": "./div[@class='module-item-pic']/a/@title",
+        "homeVodId": "./div[@class='module-item-pic']/a/@href",
+        "homeVodIdR": "/detail/(\\d+)\\.html",
+        "homeVodImg": "./div[@class='module-item-pic']/img/@data-src",
+        "homeVodImgR": "",
+        "homeVodMark": "./div[@class='module-item-caption']/span/text()",
+        "cateUrl": "https://www.netflixgc.com/vodshow/{cateId}--------{catePg}---.html",
+        "cateVodNode": "//div[contains(@class,'module-item') and contains(@class,'video-item')]/div[@class='module-item-cover']",
+        "cateVodName": "./div[@class='module-item-pic']/a/@title",
+        "cateVodId": "./div[@class='module-item-pic']/a/@href",
+        "cateVodIdR": "/detail/(\\d+)\\.html",
+        "cateVodImg": "./div[@class='module-item-pic']/img/@data-src",
+        "cateVodImgR": "",
+        "cateVodMark": "./div[@class='module-item-caption']/span/text()",
+        "dtUrl": "https://www.netflixgc.com/detail/{vid}.html",
+        "dtNode": "//body",
+        "dtName": "//div[@class='video-info']/div[@class='video-info-header']/h1/text()",
+        "dtNameR": "",
+        "dtImg": "//div[@class='video-cover']/div/img/@data-src",
+        "dtImgR": "",
+        "dtCate": "//div[@class='video-info']/div[@class='video-info-main']/div[@class='tag-link'][1]/a/text()",
+        "dtCateR": "",
+        "dtYear": "//div[@class='video-info']/div[@class='video-info-main']/div[@class='tag-link'][2]/a/text()",
+        "dtYearR": "",
+        "dtArea": "//div[@class='video-info']/div[@class='video-info-main']/div[@class='tag-link'][3]/a/text()",
+        "dtAreaR": "",
+        "dtDirector": "//div[@class='video-info']/div[@class='video-info-main']/div[contains(text(),'导演')]/following-sibling::div[1]/a/text()",
+        "dtDirectorR": "",
+        "dtActor": "//div[@class='video-info']/div[@class='video-info-main']/div[contains(text(),'主演')]/following-sibling::div[1]/a/text()",
+        "dtActorR": "",
+        "dtDesc": "//div[@class='video-info']/div[@class='video-info-content']/span/text()",
+        "dtDescR": "",
+        "dtFromNode": "//div[@class='module-tab-content']/div[contains(@class,'module-tab-item')]",
+        "dtFromName": "./span/text()",
+        "dtFromNameR": "",
+        "dtUrlNode": "//div[@class='module-blocklist']",
+        "dtUrlSubNode": "./div/a",
+        "dtUrlId": "@href",
+        "dtUrlIdR": "/play/(\\S+)\\.html",
+        "dtUrlName": "/span/text()",
+        "dtUrlNameR": "",
+        "playUrl": "https://www.netflixgc.com/play/{playUrl}.html",
+        "playUa": "",
+        "searchUrl": "https://www.netflixgc.com/vodsearch/{wd}----------{pg}---.html",
+        "scVodNode": "//div[contains(@class,'module-search-item')]",
+        "scVodName": "./div[@class='video-info']/div[@class='video-info-header']/a/h3/text()",
+        "scVodId": "./div[@class='video-info']/div[@class='video-info-header']/a/@href",
+        "scVodIdR": "/detail/(\\d+)\\.html",
+        "scVodImg": "./div[@class='video-cover']/a/img/@data-src",
+        "scVodImgR": "",
+        "scVodMark": "./div[@class='video-info']/div[@class='video-info-items']/text()"
+      }
+    }
+  ],
+  "parses": [
+    {
+      "name": "聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "线路1",
+      "type": 1,
+      "url": "https://jx.777jiexi.com/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    },
+    {
+      "name": "线路2",
+      "type": 1,
+      "url": "https://jx.bozrc.com:4433/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "线路3",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "线路4",
+      "type": 1,
+      "url": "https://jx.zhanlangbu.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "renrenmi",
+    "优酷",
+    "腾讯",
+    "爱奇艺",
+    "奇艺",
+    "乐视",
+    "搜狐",
+    "土豆",
+    "芒果",
+    "哔哩哔哩",
+    "哔哩"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    "s23.cnzz.com",
+    "z3.cnzz.com",
+    "c.cnzz.com",
+    "stj.v1vo.top",
+    "z12.cnzz.com",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "s9.cnzz.com",
+    "z6.cnzz.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "z5.cnzz.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "cdn.bootcss.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "z1.cnzz.com",
+    "s13.cnzz.com",
+    "xg.huataisangao.cn",
+    "z7.cnzz.com",
+    "xg.huataisangao.cn",
+    "z2.cnzz.com",
+    "s96.cnzz.com",
+    "q11.cnzz.com",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "s19.cnzz.com",
+    "z8.cnzz.com",
+    "s4.cnzz.com",
+    "f5w.as12df.top",
+    "ae01.alicdn.com",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "cms.qdwght.com"
+  ]
+}
