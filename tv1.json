@@ -1,8 +1,108 @@
 {
-  "key": "netflixgc",
-  "name": "NetflixGC┃本地",
-  "type": 0,
-  "api": "tvsou",
-  "playerType": 1,
-  "url": "http://192.168.5.3:3000/api/tvbox"
+  "name": "奈飞工厂",
+  "url": "https://www.netflixgc.com",
+  "type": "csp_XPath",
+  "searchable": true,
+  "quickSearch": true,
+  "filterable": true,
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+  },
+  "webSite": "https://www.netflixgc.com",
+  "rule": {
+    "catalog": {
+      "list": [
+        {
+          "key": "电影",
+          "value": "/vodtype/1.html"
+        },
+        {
+          "key": "连续剧",
+          "value": "/vodtype/2.html"
+        },
+        {
+          "key": "纪录片",
+          "value": "/vodtype/3.html"
+        },
+        {
+          "key": "漫剧",
+          "value": "/vodtype/4.html"
+        },
+        {
+          "key": "综艺",
+          "value": "/vodtype/5.html"
+        },
+        {
+          "key": "伦理",
+          "value": "/vodtype/6.html"
+        }
+      ],
+      "xpath": {
+        "list": "//div[contains(@class, 'vodlist')]/div[contains(@class, 'item')]",
+        "name": ".//h3/a/text()",
+        "url": ".//h3/a/@href",
+        "pic": ".//img/@src",
+        "desc": ".//p/text()",
+        "next": "//a[contains(text(), '下一页')]/@href"
+      }
+    },
+    "detail": {
+      "xpath": {
+        "title": "//h1/text()",
+        "pic": "//div[contains(@class, 'vodimg')]/img/@src",
+        "desc": "//div[contains(@class, 'vodinfo')]/p/text()",
+        "type": "//div[contains(@class, 'vodinfo')]/p[contains(text(), '类型')]/text()",
+        "actor": "//div[contains(@class, 'vodinfo')]/p[contains(text(), '主演')]/text()",
+        "year": "//div[contains(@class, 'vodinfo')]/p[contains(text(), '年份')]/text()",
+        "area": "//div[contains(@class, 'vodinfo')]/p[contains(text(), '地区')]/text()",
+        "episodes": "//div[contains(@class, 'vodplay')]/ul/li/a",
+        "ep_name": "./text()",
+        "ep_url": "./@href"
+      }
+    },
+    "play": {
+      "xpath": {
+        "url": "//iframe/@src"
+      }
+    },
+    "search": {
+      "url": "/index.php?m=search&a=index&wd={key}",
+      "xpath": {
+        "list": "//div[contains(@class, 'vodlist')]/div[contains(@class, 'item')]",
+        "name": ".//h3/a/text()",
+        "url": ".//h3/a/@href",
+        "pic": ".//img/@src",
+        "desc": ".//p/text()",
+        "next": "//a[contains(text(), '下一页')]/@href"
+      }
+    }
+  },
+  "ext": {
+    "decode": "",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "cookie": "",
+    "referer": "https://www.netflixgc.com",
+    "playMode": 0,
+    "headers": {
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+      "Accept-Language": "zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3",
+      "Connection": "keep-alive",
+      "Upgrade-Insecure-Requests": "1"
+    },
+    "filter": [
+      "google-analytics.com",
+      "adservice.google.com",
+      "doubleclick.net",
+      "adsense.google.com",
+      "analytics.google.com",
+      "ads.linkedin.com",
+      "bingads.microsoft.com",
+      "ads.yahoo.com",
+      "adservice.google.cn",
+      "googlesyndication.com",
+      "googleadservices.com"
+    ],
+    "hardwareDecode": true,
+    "softDecode": true
+  }
 }
