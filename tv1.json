@@ -1,0 +1,8 @@
+{
+  "key": "netflixgc",
+  "name": "NetflixGC┃本地",
+  "type": 0,
+  "api": "tvsou",
+  "playerType": 1,
+  "url": "http://192.168.5.3:3000/api/tvbox"
+}
