@@ -1,48 +1,5 @@
 {
-  "spider": "",
-  "wallpaper": "https://bing.img.run/uhd.php",
-  "sites": [
-    {
-      "key": "netflixgc",
-      "name": "奈飞工厂",
-      "type": 2,
-      "api": "http://192.168.5.3:8000/api",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 2
-    }
-  ],
-  "parses": [
-    {
-      "name": "自动解析",
-      "type": 2,
-      "url": "Sequence"
-    },
-    {
-      "name": "综合解析",
-      "type": 1,
-      "url": "https://jx.xmlyapi.com/?url="
-    },
-    {
-      "name": "B站解析",
-      "type": 1,
-      "url": "https://jx.xmflv.com/?url="
-    }
-  ],
-  "lives": [
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "redirect",
-          "urls": ["proxy://do=live&type=txt&ext="]
-        }
-      ]
-    }
-  ],
-  "flags": ["youku", "qq", "iqiyi", "xigua", "m1905", "pptv", "wasu", "bilibili"]
-"spider": "http://cdn.qiaoji8.com/fix260108.jar;md5;1fbfab3e9f1fc664a90844c488c49b25",
+  "spider": "http://cdn.qiaoji8.com/fix260108.jar;md5;1fbfab3e9f1fc664a90844c488c49b25",
   "wallpaper": "https://bing.img.run/uhd.php",
   "lives": [
     {
@@ -56,6 +13,16 @@
     }
   ],
   "sites": [
+    {
+      "key": "netflixgc",
+      "name": "奈飞工厂",
+      "type": 2,
+      "api": "http://192.168.5.3:8000/api",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2
+    },
     {
       "key": "巧技三",
       "name": "巧技三┃QD4K",
