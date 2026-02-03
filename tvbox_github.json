@@ -1,0 +1,45 @@
+{
+  "spider": "",
+  "wallpaper": "https://bing.img.run/uhd.php",
+  "sites": [
+    {
+      "key": "netflixgc",
+      "name": "奈飞工厂",
+      "type": 2,
+      "api": "http://192.168.5.3:8000/api",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2
+    }
+  ],
+  "parses": [
+    {
+      "name": "自动解析",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "综合解析",
+      "type": 1,
+      "url": "https://jx.xmlyapi.com/?url="
+    },
+    {
+      "name": "B站解析",
+      "type": 1,
+      "url": "https://jx.xmlyapi.com/?url="
+    }
+  ],
+  "lives": [
+    {
+      "group": "redirect",
+      "channels": [
+        {
+          "name": "live",
+          "urls": ["proxy://do=live&type=txt&ext="]
+        }
+      ]
+    }
+  ],
+  "flags": ["youku", "qq", "iqiyi", "xigua", "m1905", "pptv", "wasu"]
+}
