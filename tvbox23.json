@@ -1,0 +1,31 @@
+{
+  "spider": "https://cdn.jsdelivr.net/gh/liu673cn/box@main/jar/0.jar",
+  "wallpaper": "https://picsum.photos/1920/1080",
+  "sites": [
+    {
+      "key": "netflixgc_local",
+      "name": "奈飞工厂(本地)",
+      "type": 2,
+      "api": "http://192.168.5.3:8000/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+      "timeout": 30
+    }
+  ],
+  "parses": [
+    {
+      "name": "自动解析",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "综合解析",
+      "type": 1,
+      "url": "https://jx.xmlyapi.com/?url="
+    }
+  ],
+  "lives": [],
+  "flags": ["youku", "qq", "iqiyi", "xigua", "m1905", "pptv", "wasu", "bilibili"]
+}
