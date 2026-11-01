@@ -1,0 +1,15 @@
+{
+  "spider": "https://nassd124.io.github/tvbox/dora.jar;md5;7cfff0bccd2497e6d4401770d01db623",
+  "sites": [
+    {
+      "key": "Dora",
+      "name": "哆啦新番社",
+      "type": 3,
+      "api": "csp_Dora",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": ""
+    }
+  ]
+}
