@@ -1,0 +1,11 @@
+{
+  "key": "4kdyw",
+  "name": "4kdyw影视",
+  "type": 3,
+  "api": "csp_KeKeDY4k",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0,
+  "ext": "https://www.4kdyw.com",
+  "jar": "http://你 的服务地址/4kdyw_spider.jar"
+}
